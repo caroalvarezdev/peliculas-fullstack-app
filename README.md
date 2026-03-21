@@ -72,6 +72,6 @@ npm start
 
 ## 💼 Autora
 
-Caro Alvarez  
+Carolina Alvarez R
 Estudiante de Tecnología en Desarrollo de Software  
 Curso: Ingeniería Web II

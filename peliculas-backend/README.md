@@ -1,35 +1,35 @@
-#  API REST - Gestión de Películas
+Proyecto desarrollado para la asignatura Ingeniería Web II.
 
-Proyecto desarrollado para la asignatura **Ingeniería Web II**.
+---
 
-## Descripción
+## 📌 Descripción
 
-API REST construida con **Node.js**, **Express** y **MongoDB Atlas** para la gestión administrativa de películas y series.
+API REST construida con Node.js, Express y MongoDB Atlas para la gestión administrativa de contenido audiovisual como películas y series.
 
 Permite administrar los siguientes módulos:
 
-- Género
-- Director
-- Productora
-- Tipo
-- Media (Películas y Series)
+- Género  
+- Director  
+- Productora  
+- Tipo  
+- Media (Películas y Series)  
 
-La API implementa arquitectura monolítica y relaciones entre entidades utilizando referencias con Mongoose.
-
----
-
-##  Tecnologías utilizadas
-
-- Node.js
-- Express.js
-- MongoDB Atlas
-- Mongoose (ODM)
-- Postman (pruebas de API)
-- Git & GitHub
+La API implementa una arquitectura monolítica y establece relaciones entre entidades mediante referencias utilizando Mongoose.
 
 ---
 
-## Estructura del proyecto
+## 🚀 Tecnologías utilizadas
+
+- Node.js  
+- Express.js  
+- MongoDB Atlas  
+- Mongoose (ODM)  
+- Postman (pruebas de API)  
+- Git & GitHub  
+
+---
+
+## 📁 Estructura del proyecto
 
 peliculas-backend/
 │
@@ -40,41 +40,52 @@ peliculas-backend/
 ├── package.json
 └── package-lock.json
 
+---
+
+## 🌐 Despliegue
+
+La API se encuentra desplegada en la nube mediante Render y es accesible en la siguiente URL:
+
+👉 https://api-peliculas-mpfc.onrender.com/
 
 ---
 
-## Funcionalidades
+## ⚙️ Ejecución local
 
-- CRUD completo en todos los módulos
-- Relaciones entre entidades con `.populate()`
-- Base de datos NoSQL en la nube
-- Validación de persistencia de datos
-- Pruebas realizadas con Postman
+Para ejecutar el proyecto en entorno local:
 
----
+Clonar el repositorio  
+Instalar dependencias: npm install  
+Ejecutar el servidor: node index.js  
 
-## ▶ Cómo ejecutar el proyecto
-
-1. Clonar el repositorio
-2. Instalar dependencias: npm install
-3. Ejecutar el servidor: node index.js
-4. Probar en Postman: http://localhost:4000
+La API estará disponible en:  
+http://localhost:4000
 
 ---
 
-##  Endpoints principales
+## 🔗 Endpoints principales
 
-- `/api/generos`
-- `/api/directores`
-- `/api/productoras`
-- `/api/tipos`
-- `/api/medias`
+- /api/generos  
+- /api/directores  
+- /api/productoras  
+- /api/tipos  
+- /api/medias  
 
 ---
 
-Proyecto académico con fines educativos.
-Realizado por: Carolina Álvarez R.
+## 🎯 Funcionalidades
 
+- CRUD completo en todos los módulos  
+- Relaciones entre entidades utilizando .populate()  
+- Persistencia de datos en base de datos NoSQL en la nube  
+- Validación y gestión de datos  
+- Pruebas realizadas mediante Postman  
 
+---
 
+## 👩‍💻 Autora
 
+Carolina Álvarez R  
+Estudiante Tecnología en Desarrollo de Software
+
+---

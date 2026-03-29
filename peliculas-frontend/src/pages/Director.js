@@ -14,7 +14,7 @@ function Director() {
 
   const obtenerDirectores = async () => {
     try {
-      const res = await api.get("/directores");
+      const res = await api.get("/api/directores");
       setDirectores(res.data);
     } catch (error) {
       console.error("Error al obtener directores:", error);

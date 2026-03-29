@@ -26,11 +26,11 @@ function Media() {
 
   const obtenerDatos = async () => {
     try {
-      const resGeneros = await api.get("/generos");
-      const resDirectores = await api.get("/directores");
-      const resProductoras = await api.get("/productoras");
-      const resTipos = await api.get("/tipos");
-      const resMedias = await api.get("/medias");
+      const resGeneros = await api.get("/api/generos");
+      const resDirectores = await api.get("/api/directores");
+      const resProductoras = await api.get("/api/productoras");
+      const resTipos = await api.get("/api/tipos");
+      const resMedias = await api.get("/api/medias");
 
       setGeneros(resGeneros.data);
       setDirectores(resDirectores.data);
@@ -46,7 +46,7 @@ function Media() {
     e.preventDefault();
 
     try {
-      await api.post("/medias", {
+      await api.post("/api/medias", {
         titulo,
         sinopsis,
         genero: generoSeleccionado,

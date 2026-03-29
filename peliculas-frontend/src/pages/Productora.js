@@ -14,7 +14,7 @@ function Productora() {
 
   const obtenerProductoras = async () => {
     try {
-      const res = await api.get("/productoras");
+      const res = await api.get("/api/productoras");
       setProductoras(res.data);
     } catch (error) {
       console.error("Error al obtener productoras:", error);

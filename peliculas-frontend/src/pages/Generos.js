@@ -14,7 +14,7 @@ function Generos() {
 
   const obtenerGeneros = async () => {
     try {
-      const res = await api.get("/generos");
+      const res = await api.get("/api/generos");
       setGeneros(res.data);
     } catch (error) {
       console.error("Error al obtener generos:", error);

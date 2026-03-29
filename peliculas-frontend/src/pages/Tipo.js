@@ -14,7 +14,7 @@ function Tipo() {
 
   const obtenerTipos = async () => {
     try {
-      const res = await api.get("/tipos");
+      const res = await api.get("/api/tipos");
       setTipos(res.data);
     } catch (error) {
       console.error("Error al obtener tipos:", error);
